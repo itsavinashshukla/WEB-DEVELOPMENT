@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- flexbox is great way of geeting more flexibility in your layout 
+and to simplify responsive layout design. it makes it easy to align element 
+on a 2d plan and is pretty easy to use once you get familier with the main property
+
+1st step is to set display: flex on container element. the children to the flex container becomes flex items.
+ -->
+
+<!-- Flex container property 
+*flex-direction = row , column, row reverse, coloumn reverse 
+*flew-wrap = wrap, nowrap, rapreverse , by using this we can preserve the content from squezing 
+*flew-flow = shorthand notation (flex flow: row wrap) 
+*justify- content = flex start, flex-end, center, space-around, space-evenly, space-between. all the content will move with respect to main axis
+*align - item = flex-start, flex-end, center, stretch, baseline, align the text with reference to cross axis
+*align - content = flex-start, flex-end, center, space-between, space-around, space evenly. handles spacing between rows or column.
+gap:10px this will make gap between boxes. -->
+
+
+<!-- Flex item properties: The direct child element of a flex container automatically becomes flexible item.
+*order= this will chsange the order of element by writing order:1, or any munber bigger number will go back and small no. will be at the front 
+*Flex-Grow = flex-grow, we can grown the size (width) by witing flex-grow , for any specific row use order:1 flex-grow:1; box 1 will increase with increase speed.
+*Flex-shrink= by using shrink we can decide which box will shrink at what speed by writing  
+*Flex-basis = used to give width to container by writing flex-basis:100px. to flex items. the diffrence between flexbasis and width is that in width the text gets hidden but in flex basis it becomes responsiv and does not hide from the screen  
+*Flex = shorthandnotation flex: 3 4 2 120px (above all 4 in one line)
+*align-self = flex-end, flex-start, streach. this will align the box according to the command.
+ -->
+
+ <!-- box-sizing :border-box; = this will decrease the size of content but total size of the box remains same -->
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+.max{
+    border: 2px solid black;
+    max-height: 100px;
+    overflow: scroll;
+}
+/* max hight will allow only text upto 100px which is mentioned by 
+the user after that the text will overflow 
+in order to avoid this we use overflow: scroll*/
+
+
+.min{
+margin: 10px;
+min-height: 100px;
+border: 2px solid black;
+}
+/* in case of min height if the text is less then the mentioned value, */
+/* then its ok , if the text value is more then the set value then  */
+/* the mentioned value becomes minimum value and gives extra space and do not cause overflow */

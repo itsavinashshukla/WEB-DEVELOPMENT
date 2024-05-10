@@ -1,0 +1,22 @@
+h1{
+   text-shadow: 3px 3px 4px  red;
+   /* to blur the text (4px) */
+   text-shadow: 3px 3px 4px  red, 5px 5px 5px yellow;
+/* for multiple shadow  */
+
+}
+.box{
+background-color: lawngreen;
+width: 200px;
+height: 200px;
+box-shadow: 10px 10px 8px;
+/* color of shadow will depend on the color of text  */
+/* we can also add blur effect by giving its value 8px*/
+/* we can also have multiple shadow   */
+/* by giving negative values to horizontal and vertical we can change the position of shadow  */
+/* Spread radius simply increases or decreases the size of shadow.
+a positive value makes it larger and the negative value smaller.
+ .box{ box-shadow: 5px 5px 5px 10px red; } You can see the size of shadow has 
+increased and has spread all around.
+ */
+}

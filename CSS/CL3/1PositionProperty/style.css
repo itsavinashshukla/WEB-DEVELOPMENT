@@ -1,0 +1,36 @@
+p{
+  position: static;
+color: blue;
+}
+/* static tag keeps the text as it is without any change */
+/* position relative is positioned relative to its normal posiion
+ */
+
+
+div{ 
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  display: inline-block;
+} 
+/* now we will apply relative data in box, the changes will be based on the data at div  */
+
+.box{
+   position: relative;
+   /* top: 100px;
+   left: 100px; */
+  
+  }
+
+  /* now suppose we have to fix the position of box1 even when screen is scrooling */
+
+  #box1{
+       position: fixed;
+
+  }
+
+  /* absolute positioning is positioned relative to the nearest positioned ancestor */
+
+  /* Sticky positioning is based on users scrool position  */
+  /* it tonggles between relative and fixed positioning , when the position is provided to it , it sticks at that place  */

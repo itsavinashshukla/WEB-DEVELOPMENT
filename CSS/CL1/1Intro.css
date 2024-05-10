@@ -1,0 +1,29 @@
+ /* CSS is the language we use to style an HTML 
+ document. CSS describes how HTML elements should
+ be displayed. */ 
+ 
+ /* types of selector 
+* element selector 
+* class selector  = starts from .
+* id selector = starts from # 
+*Multiple selector= border 1px solid black 
+*pseudo selector  */
+
+
+/* specificity= this will tell which property will be picked up
+when multiple styling is given for one html line or para.  */
+
+  
+/* tpes of color in css
+* Hexadecimal colors= #__ __ __ __ __ 
+* RGB colors= rgb(__ __ __)
+*predefined / cross- browser colors= megents , pink etc */
+
+/* Unit in css
+*absolute unit = mm, cm, in, px.(fixed)
+*percentage unit = div {width:10%} 10% of parent div. it will act as a nested div.
+*Relative unit = em(relative to parent size), vh, rem  
+     > Relative to font size
+     > Related to document  */
+
+

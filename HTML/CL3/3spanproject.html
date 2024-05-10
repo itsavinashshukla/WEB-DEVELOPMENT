@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            caption-side: bottom;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+
+        <!-- By using col group tag we can apply any style to that colomn and to use more that one colomn use span tag  -->
+        <!-- we can also hide any colomn by using colomn collapse  -->
+        <colgroup>
+            <col span="1"> <!--we do not want any color to the first colomn-->
+            <col span="1" style="background-color: yellowgreen">
+            <col span="1" style="background-color: rgb(100, 29, 207)">
+
+        </colgroup>
+
+        <caption>Health Table</caption>
+        <tr>
+            <td rowspan="2">State of Health</td>
+            <td colspan="2">Fasting value</td>
+            <td>After Fasting</td>
+        </tr>
+
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hr after eating</td>
+        </tr>
+
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less then 140</td>
+        </tr>
+
+        <tr>
+            <td>Pre Diab</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+
+        <tr>
+            <td>Diabetes</td>
+            <td>more then 126</td>
+            <td>n/a</td>
+            <td>more then 200</td>
+        </tr>
+
+    </table>
+    <!-- we firstly created normal table  -->
+    <!-- by applying row and colomn and  -->
+    <!-- then apply row span and colom span  -->
+
+</body>
+
+</html>

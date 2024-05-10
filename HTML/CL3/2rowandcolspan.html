@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table,
+    tr,
+    td,
+    th {
+      border: 1px solid black;
+      border-collapse: collapse;
+      caption-side: bottom;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <table>
+    <caption>My first table</caption>
+
+    <!-- col span tag is used when we need to cover two row or many -->
+    <tr>
+      <th colspan="2">Month</th>
+      <th>amount</th>
+    </tr>
+    <tr>
+      <!-- row span is used if we need two or more rows -->
+      <td rowspan="2">Jan</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>Feb</td>
+      <td>2000</td>
+    </tr>
+    <tr>
+      <td>march</td>
+      <td>1500</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>4500</td>
+    </tr>
+
+
+  </table>
+</body>
+
+</html>

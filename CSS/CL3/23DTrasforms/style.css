@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid red;
+
+}
+.translated{
+  transform: perspective(30px) translatez(-10px);
+
+}
+/* z axis is used for 3d and x and y will be declared as it was shown in last class */
+
+.scaled{
+    margin: 100px;
+    transform: perspective(350px) scaleZ(4) rotateX(45deg) rotateY(30deg);
+}
+
+/* we can rotate the box by y and x axises. 
+scaled means the box will increase from back.  */

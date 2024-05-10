@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- now in order to give border we will use class  -->
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            /*border-collapse: collapseis used to remove multiple border line*/
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- now to create a table we will use table tag -->
+    <!-- tr tag for row and td for coloum but th tag for thead -->
+    <!-- upper part is known as thead , lower side of table is known as tfoot and in between is known as tbody-->
+
+    <table>
+
+        <caption>My Savings</caption>
+
+        <thead>
+            <tr>
+                <th>Months</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>jan</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>feb</td>
+                <td>200</td>
+
+            </tr>
+            <tr>
+                <td>mar</td>
+                <td>400</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>total</td>
+                <td>900</td>
+            </tr>
+        </tfoot>
+
+
+
+    </table>
+
+
+
+
+
+</body>
+
+</html>

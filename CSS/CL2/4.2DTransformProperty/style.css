@@ -1,0 +1,11 @@
+.box{
+    background-color: orchid;
+    transform: translateX(100px);
+    transform: translatey(200px);
+    /* margin:200px ;
+    transform: scale(2, 1); */
+    /*transform: skew(10deg); (tilt) */
+
+}
+/* x-axis and y-axis */
+/* we can also rotate the div by giving transform:rotate 45deg */
