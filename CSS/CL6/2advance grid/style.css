@@ -1,0 +1,19 @@
+.container{
+    height: 700px;
+    border: 1px solid red;
+    background-color: yellow;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-auto-rows: minmax(400px ,  auto);
+    /* this property is used when we dont know about the no. of rows or coloums so this is used  */
+
+    grid-template-columns: repeat(4 , 1fr); 
+    /* this makes the colomn of same size  and fr stand for fraction unit  */
+}
+
+.box{ 
+    border: 1px solid green;
+    background-color: aqua;
+}
