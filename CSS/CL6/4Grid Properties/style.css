@@ -1,0 +1,59 @@
+.container{
+    border: 2px solid brown;
+    background-color: yellow;
+    height: 700px;
+    width: 600px;
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+    grid-gap: 10px;
+
+    /* 1st Property of Grid
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+    /* 2nd property of Grid */
+    /* align-items:start ;
+    align-items:end  ;
+    align-items:baseline ;
+    align-items:stretch; */
+
+    /* justify-content and align-content is used for parent where as justify-self and align-self is used for child or grid item */
+ 
+    /* 6th property of grid  */
+    /* align-content:space-between ;
+    align-content:space-evenly ;
+    align-content: space-around;
+     */
+
+/* 7th property of grid  */
+/* place-items: center ; */
+/* place-content: center ; */
+}
+
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+/* #box1{  */
+    /* 4th property of grid  */
+    /* justify-self: start;
+    justify-self: end;
+    justify-self: center; */
+
+    /* 5th property of grid  */
+    /* align-self:center ; */
+    
+    /* The difference between the values 
+inline-grid and grid is that the inline-grid 
+will make the element inline while grid will 
+make it a block-level element. */
+/* }  */
+
