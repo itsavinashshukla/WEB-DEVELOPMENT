@@ -1,0 +1,21 @@
+:root{
+    --dark-red:#981a2c
+}
+/* this is the method for assigning global variable  */
+
+
+
+.container{
+    border: 1px solid brown;
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}
+
+.box{
+    border: 2px solid green;
+    background-color: aqua;
+    --dark-red: #981a2c;
+    /* when ever we want to assign variable the we need to use . thjs is a local variable--  */
+    color: var(--dark-red);
+}
