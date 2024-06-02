@@ -1,0 +1,42 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: yellowgreen;
+    border: 3px solid red;
+    display: flex;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: 2px solid orange;
+    background-color: aqua;
+
+    /* transition-property: background-color;
+    transition-delay: 4s;
+    transition-duration: ;
+    transition-timming: ;    
+    transition-function: ;   
+*/
+
+ /* transition: transform 3s ease-in ;  ease in= this works slow at first and then fast at last  */
+ /* transition: transform 3s cubic-bezier(1, -0.09, 0, 1.68) 1s;                          ease out = this works fast at first and then slow at last  */
+/* cubic-bezier is used to modifi or have ower own movement or transition  by inspecting the page*/
+
+transition-property: transform;
+transition-duration: 3s;
+transition-timing-function: ease;
+transition-delay: 1s;
+
+
+}
+
+.box:hover{
+    /* background-color: rgb(195, 156, 232);
+    transition: .7s;
+    width: 300px; */
+    background-color: brown;
+    transform:scale(2)  translateX(500px) rotate(360deg); 
+    
+}
