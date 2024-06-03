@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    height: 215px;
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.box{
+    height: 212px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aqua;
+
+    animation-name: avinash;
+    animation-duration: 3s;
+     animation-iteration-count: 4; /*(infinit) */
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    /* animation-direction: normal; */
+    animation-direction: alternate;
+    /* animation-direction: reverse;  */
+    /* animation-fill-mode: backwards; */
+}
+
+/* keyframe is a point that is used to represent the animation state moving from one scale to another */
+/* @keyframes avinash {
+
+    from{
+        width: 212px;
+    }
+    to{
+        width: 800px;
+    }
+
+
+} */
+
+@keyframes avinash{
+    0%{
+        width: 212px;
+        background-color: aqua;
+    }
+    30%{
+        width: 35%;
+        background-color: aquamarine;
+    }
+    65%{
+        width: 70%;
+        background-color: blue;
+    }
+    100%{
+        width: 100%;
+        background-color: blueviolet;
+    }
+}
